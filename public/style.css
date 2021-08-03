@@ -14,7 +14,7 @@
 
 .result-area{
     background-color: rgb(41, 32, 32);
-    width: 89%;
+    width: 89.3%;
     height: 14.9vh;
     color: white;
     text-align: right;
@@ -73,10 +73,10 @@
 
     @-webkit-keyframes glow {
         from {
-        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e6d600, 0 0 40px #92940a, 0 0 50px #d6ca1c, 0 0 60px #dfe211, 0 0 70px #bcdf20;
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
         }
         to {
-        text-shadow: 0 0 20px #fff, 0 0 30px #8cdeff, 0 0 40px #5cc1d3, 0 0 50px #067cc0, 0 0 60px #115f9e, 0 0 70px #298ead, 0 0 80px #4dbeff;
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
         }
     }
 
@@ -120,31 +120,4 @@
     border: 1px solid rgb(145, 33, 33);
   }
 
-  @media screen and (max-width: 920px) {
-      *{
-          font-size:10px;
-      }
-      body{
-          height: 100%;
-      }
-
-      .main-div{
-          width: 100%;
-      }
-      .result-area{
-          width: 94.47%;
-      }
-      .container-numbers{
-          width: 77.9%;
-      }
-      .equal{
-          position: absolute;
-          left:51.9%;
-      }
-      .container-operators{
-          padding-top: 5.5vh;
-      }
-      /* .result-area{
-          width: 88.2%;
-      } */
-  }
+  
