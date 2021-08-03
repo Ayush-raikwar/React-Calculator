@@ -7,27 +7,25 @@ import Numbers from "./Numbers";
 
 function App(){
 
-    var [user_input,setstate] = useState("");
+    const [user_input,setstate] = useState("");
 
     let getUserInput = (valNum) => {
-        
-        user_input = user_input.replace(/^0+/, '');
-        
         setstate(user_input+""+valNum);
         
     }
 
-    function getOperator(operatorVal){ 
-        console.log(user_input); 
-
-        if(user_input.toString().charAt((user_input.toString()).length-1)===operatorVal){
+    function getOperator(operatorVal){
+        
+       
+     
+        if(user_input.charAt(user_input.length-1)===operatorVal){
             console.log(user_input);
         } else{
             setstate(user_input+operatorVal);
 
         }
+     
 
-        console.log(user_input);
     }
 
     function clearAll(){
